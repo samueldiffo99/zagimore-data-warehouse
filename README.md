@@ -27,7 +27,7 @@ The diagram above shows the transformation from the OLTP source schema (left) in
 
 | Capability | Where |
 |---|---|
-| Star schema design from a normalized OLTP source | `02_dimensional_model.sql` |
+| Star schema design from a normalized OLTP source | `01_oltp_schema.sql` |
 | Conforming two transaction types (sales + rentals) into one fact grain | `02_dimensional_model.sql` |
 | Aggregate tables & reporting views (by category, by region, daily snapshot) | `03_aggregates_and_views.sql` |
 | Incremental ("delta") ETL using extraction timestamps, not full reloads | `04_etl_incremental_load.sql` |
